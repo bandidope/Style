@@ -64,7 +64,7 @@ const defaultMenu = {
 *╰╍╍╍╍❖•ೋ° °ೋ•❖╍╍╍╍╯*
  %readmore
 `.trimStart(),
-  header: '*╭╍╍╍╍❖【 %category 】*',
+  header: '\n*╭╍╍╍╍❖【 %category 】*',
   body: '*┋💎›【 %cmd* %islimit %isPremium\n',
   footer: '*╰╍╍╍╍❖•ೋ° °ೋ•❖╍╍╍╍╯*',
   after: `© ${textbot}`,
