@@ -17,31 +17,24 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `⚠️ 𝗔𝗟𝗘𝗥𝗧𝗔 𝗗𝗘 𝗦𝗜𝗦𝗧𝗘𝗠𝗔 ⚠️ 
-┃ ⛧ 𝙸𝙽𝙸𝙲𝙸𝙰𝙽𝙳𝙾: 𝙱𝙻𝙲-𝚂𝚈𝚂.exe
-┃ ⛧ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾: %name
-┃ ⛧ 𝙼𝙾𝙳𝙾: %mode
-┃ ⛧ 𝙴𝚂𝚃𝙰𝙳𝙾:  𝗢𝗡𝗟𝗜𝗡𝗘 👻
-╚══⫷🔻𝙽𝙴𝚃𝚁𝚄𝙽𝙽𝙴𝚁🔻⫸══╝
-
-╭─[𝗘𝗦𝗧𝗔𝗗𝗢 𝗗𝗘 𝗨𝗦𝗨𝗔𝗥𝗜𝗢]─╮
+  before: `╭─[𝗘𝗦𝗧𝗔𝗗𝗢 𝗗𝗘 𝗨𝗦𝗨𝗔𝗥𝗜𝗢]─╮
 │ 📊 𝗡𝗜𝗩𝗘𝗟: %level
 │ ⚡ 𝗘𝗫𝗣: %exp / %maxexp
 │ 🧮 𝗨𝗦𝗨𝗔𝗥𝗜𝗢𝗦: %totalreg
 │ ⏱ 𝗧𝗜𝗘𝗠𝗣𝗢 𝗔𝗖𝗧𝗜𝗩𝗢: %muptime
 ╰──────────────────╯
 
-🧬 *𝗡𝗢𝗗𝗢 𝗛𝗔𝗖𝗞 𝗔𝗖𝗧𝗜𝗩𝗔𝗗𝗢*
+🧬 *𝗠𝗢𝗗𝗢 𝗛𝗔𝗖𝗞 𝗔𝗖𝗧𝗜𝗩𝗔𝗗𝗢*
 ✦ Elige un comando para ejecutar protocolo.
-✦ Operador: *The Carlos 👑*
+✦ Operador: *Yallico Owner 👑*
 
 %readmore
 `.trimStart(),
 
   header: '\n╭─〔 🦠 %category 〕─╮',
-  body: '│ ⚙️ %cmd\n',
+  body: '│ ⚙️ %cmd',
   footer: '╰────────────────╯',
-  after: '\n⌬ 𝗖𝗬𝗕𝗘𝗥 𝗠𝗘𝗡𝗨 ☠️ - Sistema ejecutado con éxito.'
+  after: '\n⌬ 𝐒𝐓𝐘𝐋𝐄 𝐃𝐑𝐈𝐅𝐓 ☠️ - Sistema ejecutado con éxito.'
 }
 
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -106,9 +99,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }, { quoted: m })
 
     await conn.sendMessage(m.chat, {
-      image: { url: 'https://files.catbox.moe/0ro3o9.jpg' },
+      image: { url: 'https://files.catbox.moe/0mervt.jpeg' },
       caption: text,
-      footer: '🧠 BLACK CLOVER SYSTEM ☘️',
+      footer: '🧠 STYLE DRIFT SYSTEM ☘️',
       buttons: [
         { buttonId: `${_p}grupos`, buttonText: { displayText: '🌐 ＧＲＵＰＯＳ' }, type: 1 },
         { buttonId: `${_p}code`, buttonText: { displayText: '🕹 ＳＥＲＢＯＴ' }, type: 1 }
