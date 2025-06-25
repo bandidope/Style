@@ -16,8 +16,8 @@ global.botNumber = '' //Ejemplo: 525218138672
 //*──ׄ✞ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['5215544876071', '🜲 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👻', true],
-  ['5217971289909']
+  ['51936994155', '🜲 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👻', true],
+  ['51936994155']
 ];
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
@@ -40,45 +40,45 @@ global.blackJadibts = true
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
 global.packsticker = `
-┃ ✞ 𝙱𝙾𝚃: 𝙱𝚕𝚊𝚌𝚔 𝙲𝚕𝚘𝚟𝚎𝚛 ☘
-┃ ✞ 𝙰𝚄𝚃𝙾𝚁: 👑 𝚃𝙷𝙴 𝙲𝙰𝚁𝙻𝙾𝚂 ᚲ`;
+┃ ✞ 𝙱𝙾𝚃: Style Drift ☘
+┃ ✞ 𝙰𝚄𝚃𝙾𝚁: Yallico Drift ᚲ`;
 
-global.packname = `✠ 𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘ `;
+global.packname = `✠ 𝐒𝐭𝐲𝐥𝐞 𝐃𝐫𝐢𝐟𝐭 ☘ `;
 global.author = `
 ⇝ 📆 ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}
 ⇝ ⏰ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}
 ♾━━━━━━━━━━━━━━━♾`;
 
-global.wm = '𝑩𝒍𝒂𝒄𝒌 𝑪𝒍𝒐𝒗𝒆𝒓 ☘';
-global.titulowm = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘';
-global.igfg = 'ᥫ𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
-global.botname = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ the Legends ⚡'
-global.textbot = '𝑩𝑳𝑨𝑪𝑲 𝑪𝑳𝑶𝑽𝑬𝑹  : 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
-global.gt = '͟͞𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘͟͞';
-global.namechannel = '𝑩𝑳𝑨𝑪𝑲 𝑪𝑳𝑶𝑽𝑬𝑹 / 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
+global.wm = '𝐒𝐭𝐲𝐥𝐞 𝐃𝐫𝐢𝐟𝐭 ☘';
+global.titulowm = '𝐒𝐭𝐲𝐥𝐞 𝐃𝐫𝐢𝐟𝐭 ☘';
+global.igfg = '𝐒𝐭𝐲𝐥𝐞 𝐃𝐫𝐢𝐟𝐭'
+global.botname = '𝐒𝐭𝐲𝐥𝐞 𝐃𝐫𝐢𝐟𝐭 ☘'
+global.dev = '𝐒𝐭𝐲𝐥𝐞 𝐃𝐫𝐢𝐟𝐭'
+global.textbot = '𝐒𝐭𝐲𝐥𝐞 𝐃𝐫𝐢𝐟𝐭'
+global.gt = '͟͞𝐒𝐭𝐲𝐥𝐞 𝐃𝐫𝐢𝐟𝐭𝖗 ☘͟͞';
+global.namechannel = '𝐒𝐭𝐲𝐥𝐞 𝐃𝐫𝐢𝐟𝐭'
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
 global.moneda = 'moneda'
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺  𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 ™◞ • 🌿
-global.gp4 = 'https://chat.whatsapp.com/GrcUknwrJbNIXIIrbsuXc0' //Grupo Oficial De black clover 
-global.gp1 = 'https://chat.whatsapp.com/FiBcPMYEO7mG4m16gBbwpP' //Grupo 2
-global.gp2 = 'https://chat.whatsapp.com/G9zQlCHDBrn99wcC2FyWgm'//
-global.channel = 'https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w' //Canal Oficial
-global.channel2 = 'https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w' //Canal test 
-global.yt = 'https://www.youtube.com/@ElCarlos.87' //Canal De Youtube
-global.md = 'https://github.com/thecarlos19/black-clover-MD' //Github Oficial
+global.gp4 = 'https://chat.whatsapp.com/' //Grupo Oficial De black clover 
+global.gp1 = 'https://chat.whatsapp.com/' //Grupo 2
+global.gp2 = 'https://chat.whatsapp.com/'//
+global.channel = 'https://whatsapp.com/channel/' //Canal Oficial
+global.channel2 = 'https://whatsapp.com/channel/' //Canal test 
+global.yt = 'https://www.youtube.com/' //Canal De Youtube
+global.md = '' //Github Oficial
 global.correo = ''
-global.cn ='https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w';
+global.cn ='https://whatsapp.com/channel/';
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 global.ch = {
-ch1: '120363307694217288@newsletter',
+ch1: '120363419947391620@newsletter',
 }
 global.multiplier = 70
 
