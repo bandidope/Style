@@ -28,18 +28,18 @@ console.log(`Error : ${e}`)
 }}
   
 //creador y otros
-global.creador = 'Wa.me/525544876071'
+global.creador = 'Wa.me/51936994155'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/525544876071'
-global.namechannel = '⏤͟͞㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 '
-global.namegrupo = ' 𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎'
-global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 ⏤͟͞ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 '
+global.asistencia = 'Wa.me/51936994155'
+global.namechannel = ' Ｓｔｙｌｅ Ｄｒｉｆｙ Ｃｈａｎｎｅｌ '
+global.namegrupo = ' Ｓｔｙｌｅ Ｄｒｉｆｙ Ｃｈａｎｎｅｌ '
+global.namecomu = ' Ｓｔｙｌｅ Ｄｒｉｆｙ Ｃｈａｎｎｅｌ '
 global.listo = '⚔️ *Aquí tienes perra*'
 
 //Ids channel
-global.idchannel = '120363307694217288@newsletter'
-global.canalIdM = ["120363307694217288@newsletter", "120363307694217288@newsletter"]
-global.canalNombreM = ["⏤͟͞㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 ", "㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 "]
+global.idchannel = '120363419947391620@newsletter'
+global.canalIdM = ["120363419947391620@newsletter", "120363419947391620@newsletter"]
+global.canalNombreM = ["Ｓｔｙｌｅ Ｄｒｉｆｙ Ｃｈａｎｎｅｌ", "Ｓｔｙｌｅ Ｄｒｉｆｙ Ｃｈａｎｎｅｌ"]
 global.channelRD = await getRandomChannel()
 
 global.d = new Date(new Date + 3600000)
@@ -66,10 +66,10 @@ global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w'  
 let canal2 = 'https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w'
-var git = 'https://github.com/thecarlos19' 
+var git = 'https://github.com/' 
 var youtube = '' 
-var github = 'https://github.com/thecarlos19/black-clover-MD' 
-let correo = 'carloscristobal30@gmail.com'
+var github = 'https://github.com/' 
+let correo = 'yallico2024@gmail.com'
 global.redes = [canal, git, github, correo].getRandom()
 
 let category = "imagen"
@@ -96,8 +96,8 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [
-'https://qu.ax/oLwYh.jpg',
-'https://qu.ax/rtCcd.jpg'
+'https://files.catbox.moe/0mervt.jpeg',
+'https://files.catbox.moe/0mervt.jpeg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: packname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
