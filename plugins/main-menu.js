@@ -61,8 +61,7 @@ const defaultMenu = {
 *┋💎›* Modo: Privado
 *┋💨›* Baileys: Multi Device
 *┋🎩›* Usuarios: %totalreg 
-*╰╍╍╍╍❖•ೋ° °ೋ•❖╍╍╍╍╯*
- %readmore
+*╰╍╍╍╍❖•ೋ° °ೋ•❖╍╍╍╍╯* %readmore
 `.trimStart(),
   header: '\n*╭╍╍╍╍❖【 %category 】*',
   body: '*┋💎›【 %cmd* %islimit %isPremium\n',
