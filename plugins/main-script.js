@@ -1,13 +1,11 @@
 const handler = async (m, { conn }) => {
   const texto = `
- _*𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 *_ 🥷
+ _*Reclutamiento Style Drift*_
 
-\`\`\`Repositorio OFC:\`\`\`
-https://github.com/thecarlos19/Black-clover-MD 
+\`\`\`Style Drift :\`\`\`
+https://chat.whatsapp.com/GqeWGK3XBD58hdGY1djuKB
 
-> 🌟 Deja tu estrellita ayudaría mucho :D
-
-🔗 *Grupo oficial del bot:* https://chat.whatsapp.com/GrcUknwrJbNIXIIrbsuXc0
+🔗 *Grupo oficial del bot:* https://chat.whatsapp.com/JUraAM0lZyB89FXbsywP9m
   `.trim()
 
   await conn.reply(m.chat, texto, m)
