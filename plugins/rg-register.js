@@ -42,15 +42,7 @@ Usa *${usedPrefix}perfil* para ver tu grimorio.`)
   user.nivelMagico = nivelMagico
 
   // ⚔️ ANIMACIÓN CORTA ESTILO BLACK CLOVER ⚔️
-  await m.reply(`🔮 *¡El maná responde a tu llamado, ${name.toUpperCase()}!*`)
-  await delay(1000)
-
-  await m.reply(`📕 *Un grimorio desciende desde lo alto del castillo mágico...*`)
-  await delay(1000)
-
-  await m.reply(`🔥 *¡Tu alma ha sido aceptada por las páginas del destino!*`)
-  await delay(1000)
-
+  
   await m.reply(`☠️ *𝑮𝒓𝒊𝒎𝒐𝒓𝒊𝒐 𝒐𝒃𝒕𝒆𝒏𝒊𝒅𝒐:* ${grimorioColor}
 🌌 *Afinidad:* ${afinidad}
 💠 *Nivel Mágico:* ${nivelMagico}
