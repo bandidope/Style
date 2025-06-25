@@ -32,7 +32,7 @@ handler.command = ['promote', 'promover']
 
 handler.group = true
 handler.admin = true
-handler.botAdmin = true
+handler.botAdmin = false
 handler.fail = null
 
 export default handler
