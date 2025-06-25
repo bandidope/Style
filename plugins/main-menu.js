@@ -27,11 +27,10 @@ const defaultMenu = {
 🧬 *𝗠𝗢𝗗𝗢 𝗛𝗔𝗖𝗞 𝗔𝗖𝗧𝗜𝗩𝗔𝗗𝗢*
 ✦ Elige un comando para ejecutar protocolo.
 ✦ Operador: *Yallico Owner 👑*
-
 %readmore
 `.trimStart(),
 
-  header: '\n╭─〔 🦠 %category 〕─╮',
+  header: '╭─〔 🦠 %category 〕─╮',
   body: '│ ⚙️ %cmd',
   footer: '╰────────────────╯',
   after: '\n⌬ 𝐒𝐓𝐘𝐋𝐄 𝐃𝐑𝐈𝐅𝐓 ☠️ - Sistema ejecutado con éxito.'
