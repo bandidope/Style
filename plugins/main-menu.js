@@ -24,8 +24,9 @@ const defaultMenu = {
 ╰──────────────────╯
 
 🧬 *𝗠𝗢𝗗𝗢 𝗛𝗔𝗖𝗞 𝗔𝗖𝗧𝗜𝗩𝗔𝗗𝗢*
-✦ Elige un comando para ejecutar protocolo.
-✦ Operador: *Yallico Owner 👑*
+*✦ Elige un comando para ejecutar protocolo :*
+*✦ Ejemplo :* .comprarbot
+*✦ Operador:* *Yallico Owner 👑*
 %readmore`.trimStart(),
 
   header: '╭─〔 🦠 %category 〕─╮',
@@ -100,8 +101,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       caption: text,
       footer: '🧠 STYLE DRIFT SYSTEM ☘️',
       buttons: [
-        { buttonId: `${_p}grupos`, buttonText: { displayText: '🌐 ＧＲＵＰＯＳ' }, type: 1 },
-        { buttonId: `${_p}code`, buttonText: { displayText: '🕹 ＳＥＲＢＯＴ' }, type: 1 }
+        { buttonId: `${_p}grupos`, buttonText: { displayText: '🌐 ＧＲＵＰＯＳ ＳＴＹＬＥ' }, type: 1 },
+        { buttonId: `${_p}ventas`, buttonText: { displayText: '☘️ ＳＴＹＬＥ ＶＥＮＴＡＳ' }, type: 1 }
       ],
       viewOnce: true
     }, { quoted: m })
