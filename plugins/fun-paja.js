@@ -13,8 +13,6 @@
 
 handler.help = ['pajeame'];
 handler.tags = ['fun'];
-handler.command = ['paja', 'pajeame']
-handler.group = true
-handler.register = true
+handler.command = /^pajeame|paja$/i;
 
 export default handler;

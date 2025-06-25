@@ -1,27 +1,44 @@
-const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
+const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default;
 
-var handler = async (m, { conn, text}) => {
+// Definir las variables no definidas
+const packname = 'Mi Paquete'; // Cambia esto por el nombre de tu paquete
+const dev = 'Desarrollador'; // Cambia esto por el nombre del desarrollador
+const channel = 'https://example.com'; // Cambia esto por la URL de tu canal
 
-conn.reply(m.chat, `${emoji2} Buscando un facto, espere un momento...`, m)
+var handler = async (m, { conn, text }) => {
+    conn.reply(m.chat, '🍭 Buscando un facto, espere un momento...', m, {
+        contextInfo: {
+            externalAdReply: {
+                mediaUrl: null,
+                mediaType: 1,
+                showAdAttribution: true,
+                title: packname || 'Título por defecto',
+                body: dev || 'Desarrollador por defecto',
+                previewType: 0,
+                thumbnail: null, // Sin miniatura
+                sourceUrl: channel || null
+            }
+        }
+    });
 
-conn.reply(m.chat, `*┏━_͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡_͜͡━┓*\n\n❥ *"${pickRandom(global.factos)}"*\n\n*┗━_͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡_͜͡━┛*`, m)
+    const randomFact = pickRandom(global.factos);
+    conn.reply(m.chat, `*┏━_͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡_͜͡━┓*\n\n❥ *"${randomFact}"*\n\n*┗━_͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡⚘-͜͡-͜͡-͜͡-͜͡-͜͡-͜͡_͜͡━┛*`, m);
+};
 
-}
-handler.help = ['facto']
-handler.tags = ['fun']
-handler.command = ['facto']
-handler.fail = null
-handler.exp = 0
-handler.group = true;
-handler.register = true
+handler.help = ['facto'];
+handler.tags = ['fun'];
+handler.command = ['facto'];
+handler.fail = null;
+handler.exp = 0;
+handler.register = true;
 
-export default handler
+export default handler;
 
-let hasil = Math.floor(Math.random() * 5000)
 function pickRandom(list) {
-return list[Math.floor(list.length * Math.random())]
+    return list[Math.floor(Math.random() * list.length)];
 }
 
+// Definir el array global de factos
 global.factos = [
     "Eres la razón por la que hay instrucciones en los champús.",
     "Si fueras un libro, serías el que nadie quiere leer.",
@@ -53,5 +70,26 @@ global.factos = [
     "Si fueras un clima, serías una tormenta: oscuro y destructivo.",
     "Eres como una cadena de mensajes: nadie te quiere, pero todos te reciben.",
     "Tu vida es como un rompecabezas con piezas que nunca encajan.",
-    "Si fueras una película, serías una secuela que nadie pidió."
+    "Si fueras una película, serías una secuela que nadie pidió.",
+    "Eres la razón por la que los gatos miran fijamente a la nada.",
+    "Si fueras un meme, serías uno que nadie comparte.",
+    "Tu vida es como un spoiler: nadie quiere saber cómo termina.",
+    "Eres como una contraseña débil: fácil de olvidar.",
+    "Si fueras un postre, serías uno sin azúcar.",
+    "Eres como una nube: siempre estás ahí, pero no sirves para nada.",
+    "Tu vida es como un error 404: no se encuentra.",
+    "Si fueras un deporte, serías uno que nadie practica.",
+    "Eres como una canción mal cantada: todos quieren que pares.",
+    "Tu vida es como un mal sueño: todos quieren despertar.",
+    "Si fueras un videojuego, serías uno que nadie juega.",
+    "Eres como una película de terror: todos quieren evitarte.",
+    "Tu vida es como un mal restaurante: nadie quiere volver.",
+    "Si fueras un libro, serías uno que nadie recomienda.",
+    "Eres como una película sin final: todos se aburren.",
+    "Tu vida es como un mal chiste: nadie se ríe.",
+    "Si fueras un día festivo, serías uno que nadie celebra.",
+    "Eres como una mala señal de tráfico: todos te ignoran.",
+    "Tu vida es como un mal café: nadie lo quiere tomar.",
+    "Si fueras un superhéroe, serías uno sin poderes.",
+    "Eres como una mala película: todos quieren salir del cine."
 ];
